@@ -1,6 +1,12 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Tokenized ERC20 Ballot Back-end
+
+## Purpose
+
+- Built using [Nest](https://github.com/nestjs/nest), this project is actually Ballot's contracts Back-end;
+- In src/app.controller.ts we find all interactions (HTTP) end-points with front-end;
+- In src/app.service.ts find code which actually interacts with the smart contracts and them functions.
+
+
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
